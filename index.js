@@ -7,7 +7,7 @@ const API_TOKEN = 'o.7ZKR2Elty8IkpNpV4E253q4payHoU6ES'; // replace this!
 const { JSDOM } = require('jsdom');
 
 async function checkButton() {
-    const url = 'https://www.goethe.de/ins/in/en/spr/prf/gzb1.cfm';
+    const url = 'https://www.goethe.de/ins/in/en/spr/prf/gzb1.cfm?examId=595AC2DA858CF8808AD605C27A9D58052BD3DA74EA97AAE20DFE51A280C19DF8DDCDBCCA8E1F2E4FDBEEAB8653851AD6EEAEDF90548256C9A02CD01298D69FBC';
     try {
         const res = await fetch(url);
         const html = await res.text();
