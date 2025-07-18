@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Checks Goethe button status and sends Pushbullet notification",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "jsdom": "^22.1.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.6.11",
+    "jsdom": "^22.1.0"
   }
 }
